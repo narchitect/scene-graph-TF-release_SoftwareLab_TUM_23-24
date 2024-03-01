@@ -4,8 +4,8 @@ set -e
 
 OUT_PATH="."
 
-N_OBJ=150 # number of object categories
-N_REL=50 # number of relationship categories
+N_OBJ=23 # number of object categories
+N_REL=13 # number of relationship categories
 
 H5=VG-SGG.h5
 JSON=VG-SGG-dicts.json

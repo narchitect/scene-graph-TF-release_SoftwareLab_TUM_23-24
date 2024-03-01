@@ -505,7 +505,7 @@ def main(args):
     print('read image db from %s' % args.imdb)
     imdb = h5.File(args.imdb, 'r')
     num_im, _, _, _ = imdb['images'].shape
-    img_long_sizes = [512, 1024]
+    img_long_sizes = [512, 1024] #[512, 1024]
     valid_im_idx = imdb['valid_idx'][:] # valid image indices
     img_ids = imdb['image_ids'][:]
     obj_data = filter_by_idx(obj_data, valid_im_idx)
